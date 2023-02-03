@@ -5,7 +5,7 @@ export default defineConfig({
   title: 'Devnotes',
   description: 'Web development knowledge base',
   appearance: true,
-  base: '/devnotes/',
+  base: '/',
   lastUpdated: true,
   markdown: {
     // theme: 'material-theme-palenight',
