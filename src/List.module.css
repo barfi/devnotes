@@ -1,0 +1,21 @@
+.root {
+  padding-left: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: 100%;
+}
+
+.item {
+  display: block;
+  width: calc(100% - 40px);
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  height: 80px;
+  line-height: 80px;
+  padding: 0 20px;
+
+  &[data-current="true"] {
+    background-color: rgba(255, 255, 255, 0.075);
+  }
+}
